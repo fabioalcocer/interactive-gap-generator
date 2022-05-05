@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive Gap Generator</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__title">Interactive Gap Generator</h1>
+      <section class="container">
+        <nav class="container__nav">
+          <div class="nav__button" data-gap="0rem"><span>gap: </span> 0</div>
+          <div class="nav__button" data-gap="1rem"><span>gap: </span> 1rem</div>
+          <div class="nav__button" data-gap="2rem"><span>gap: </span> 2rem</div>
+          <div class="nav__button" data-gap="1rem 2rem"><span>gap: </span> 1rem 2rem</div>
+        </nav>
+        <aside class="container__grid">
+          <article class="grid__item">1</article>
+          <article class="grid__item">2</article>
+          <article class="grid__item">3</article>
+          <article class="grid__item">4</article>
+        </aside>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
