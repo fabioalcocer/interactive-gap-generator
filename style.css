@@ -67,12 +67,6 @@ body {
   transition: 0.2s;
 }
 
-/* .nav__button:hover {
-  border-left: 5px solid #f25c6d;
-  background-color: #fd9ea9;
-  transition: 0.2s;
-} */
-
 .nav__button span {
   margin-right: 5px;
   font-weight: 700;
@@ -86,6 +80,7 @@ body {
   grid-template-columns: 5rem 5rem;
   grid-template-rows: 5rem 5rem;
   place-content: center;
+  transition: 0.5s;
 }
 
 .grid__item {
